@@ -10,7 +10,7 @@ const Carousel = () => {
     const [indexToShow, SetIndexToShow] = useState<number>(0)
 
     return (
-        <div className="w-full h-full flex justify-evenly bg-grey-dark">
+        <div className="w-full h-full flex justify-evenly bg-black-light">
             {ConfigCarousel.map((item, index) => (
                 <ItemHeaderCarousel 
                 data={item}

@@ -1,9 +1,10 @@
 import Carousel from "../Carousel/Carousel"
+import PinsCompetences from "../PinsCompetences.tsx/PinsCompetences"
 import "./Home.css"
 
 const Home = () => {
     return (
-        <div className="block">
+        <div className="block block-content">
             <div className="h-screen w-screen bg-grey-light">
                 <div>
                     <p className="absolute font-medium text-black-light top-[20%] italic left-[15%] titre_poste animation_slide_to_right"> 
@@ -46,8 +47,8 @@ const Home = () => {
                 <div className="w-full h-[30vh]">
                     <Carousel />
                 </div>
-                <div>
-
+                <div className="flex flex-wrap gap-2 justify-evenly px-2 py-6">
+                    <PinsCompetences />
                 </div>
             </div>
         </div>

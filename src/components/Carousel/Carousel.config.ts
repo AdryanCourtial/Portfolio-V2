@@ -10,33 +10,33 @@ export interface ConfigCarouselInterface {
 export const ConfigCarousel: ConfigCarouselInterface[] = [
     {
         id: "Backend",
-        image: "",
+        image: "/backend-img.webp",
         competences: [
             {
-                image: "",
-                name: ""
-            }   
+                image: "/icon-nuxt.png",
+                name: "Nuxt"
+            },
+            {
+                image: "/nexticon.png",
+                name: "NextJS"
+            }
         ]
     },
     {
         id: "Frontend",
-        image: "",
+        image: "/frontend.png",
         competences: [
             {
-                image: "",
-                name: ""
+                image: "/JavaScript-logo.png",
+                name: "Javascript"
             }
         ]
 
     },
     {
         id: "Outils",
-        image: "",
+        image: "/outils.png",
         competences: [
-            {
-                image: "",
-                name: ""
-            }
         ]
     }
 ]

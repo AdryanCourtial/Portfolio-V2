@@ -14,6 +14,12 @@ body {
     font-size: clamp(10px, 3vw, 100px);
 }
 
+.block-content {
+    scroll-snap-type: mandatory;
+    scroll-snap-stop: normal;
+    scrollbar-width: 100vh;
+}
+
 .page_number-1::before {
     content: "01";
     position: absolute;
@@ -42,7 +48,7 @@ body {
 }
 
 .animation_exitation:hover {
-    animation-duration: 1s;
+    animation-duration: 0.1s;
     animation-name: exitation;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
@@ -70,7 +76,7 @@ body {
     }
 }
 
-/* @keyframes exitation {
+@keyframes exitation {
   from {
       rotate: -1deg;
     }
@@ -78,18 +84,5 @@ body {
     to {
        rotate: 1deg;
     }
-} */
+}
 
-@keyframes exitation {
-    0% {
-      }
-    
-      50% {
-        scale: 80%;
-        rotate: 360deg;
-      }
-
-      100% {
-        scale: 120%;
-     }
-  }
