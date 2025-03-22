@@ -7,7 +7,10 @@
   ---primary-gray-light: #F3F2F2;
   --primary-gray-dark: #E7E4E5;
   --primary-blue: #33FFBE;
+}
 
+.body::-webkit-scrollbar {
+  display: none;
 }
 
 @theme {

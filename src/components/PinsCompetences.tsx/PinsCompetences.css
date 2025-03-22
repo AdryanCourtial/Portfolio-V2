@@ -1,0 +1,50 @@
+.pins {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    cursor: crosshair;
+    opacity: 0;
+    transition: 0.5s;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.container-img {
+    height: 100%;
+    aspect-ratio: auto;
+    position: absolute;
+    padding: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.pins:hover {
+    /* background-color: #; */
+}
+
+.pins:hover .container-name{
+    transform: translateY(0);
+}
+
+.pins:hover .container-img {
+    transform: translateY(-100%);
+}
+
+.container-name {
+    height: 100%;
+    aspect-ratio: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    padding: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px); /* Optionnel : petit mouvement */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

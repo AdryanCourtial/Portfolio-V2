@@ -1,12 +1,14 @@
+import Carousel from "../Carousel/Carousel"
+import PinsCompetences from "../PinsCompetences.tsx/PinsCompetences"
 import "./Home.css"
 
 const Home = () => {
     return (
-        <div>
+        <div className="block block-content">
             <div className="h-screen w-screen bg-grey-light">
                 <div>
                     <p className="absolute font-medium text-black-light top-[20%] italic left-[15%] titre_poste animation_slide_to_right"> 
-                        Developer Full Stack
+                        Developper Full Stack
                     </p>
                 </div>
                 <div className="absolute left-0 bottom-0 w-[80%] aspect-auto banner animation_slide_to_right">
@@ -41,8 +43,13 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-screen w-screen bg-grey-light">
-                
+            <div className="h-screen w-screen bg-grey-light pt-[4rem]">
+                <div className="w-full h-[30vh]">
+                    <Carousel />
+                </div>
+                <div className="flex flex-wrap gap-2 justify-evenly px-2 py-6">
+                    <PinsCompetences />
+                </div>
             </div>
         </div>
     )
