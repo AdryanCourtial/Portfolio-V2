@@ -1,0 +1,11 @@
+.container-header {
+    transition: 0.5s;
+}
+
+.container-header:hover .img-header{
+    scale: 120%;
+}
+
+.img-header {
+    transition: 0.5s;
+}

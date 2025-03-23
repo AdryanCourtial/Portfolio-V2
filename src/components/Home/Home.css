@@ -15,9 +15,8 @@ body {
 }
 
 .block-content {
-    scroll-snap-type: mandatory;
-    scroll-snap-stop: normal;
-    scrollbar-width: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 .page_number-1::before {

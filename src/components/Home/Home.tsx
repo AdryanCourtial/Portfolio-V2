@@ -47,7 +47,7 @@ const Home = () => {
                 <div className="w-full h-[30vh]">
                     <Carousel />
                 </div>
-                <div className="flex flex-wrap gap-2 justify-evenly px-2 py-6">
+                <div className="grid grid-cols-3 gap-2 place-items-center justify-items-center px-2 py-6">
                     <PinsCompetences />
                 </div>
             </div>

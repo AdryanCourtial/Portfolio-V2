@@ -19,6 +19,18 @@ export const ConfigCarousel: ConfigCarouselInterface[] = [
             {
                 image: "/nexticon.png",
                 name: "NextJS"
+            },
+            {
+                image: "/laravel.png",
+                name: "Laravel"
+            },
+            {
+                image: "/symfony.png",
+                name: "Symfony"
+            },
+            {
+                image: "/django.png",
+                name: "Django"
             }
         ]
     },
@@ -27,8 +39,24 @@ export const ConfigCarousel: ConfigCarouselInterface[] = [
         image: "/frontend.png",
         competences: [
             {
-                image: "/JavaScript-logo.png",
-                name: "Javascript"
+                image: "/ts.png",
+                name: "TypeScript"
+            },
+            {
+                image: "/ReactJs.png",
+                name: "React"
+            },
+            {
+                image: "/vue.png",
+                name: "VueJs"
+            },
+            {
+                image: "/pinia.png",
+                name: "Pinia"
+            },
+            {
+                image: "/jotai.png",
+                name: "Jotai"
             }
         ]
 
@@ -37,6 +65,18 @@ export const ConfigCarousel: ConfigCarouselInterface[] = [
         id: "Outils",
         image: "/outils.png",
         competences: [
+            {
+                image: "/figma.png",
+                name: "Figma"
+            },
+            {
+                image: "/github.png",
+                name: "Github"
+            },
+            {
+                image: "/GoogleCloudConsole.png",
+                name: "Google Cloud Console"
+            }
         ]
     }
 ]

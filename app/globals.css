@@ -7,6 +7,8 @@
   ---primary-gray-light: #F3F2F2;
   --primary-gray-dark: #E7E4E5;
   --primary-blue: #33FFBE;
+
+  scroll-behavior: smooth;
 }
 
 .body::-webkit-scrollbar {
