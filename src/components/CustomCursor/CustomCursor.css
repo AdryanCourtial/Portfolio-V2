@@ -1,0 +1,9 @@
+.custom-cursor {
+    width: 48px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    background-color: var(--color-red-main);
+    transform: translate(-50%, -50%);
+}

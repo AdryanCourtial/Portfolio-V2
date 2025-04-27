@@ -1,5 +1,7 @@
 import Carousel from "../Carousel/Carousel"
+import CustomCursor from "../CustomCursor/CustomCursor"
 import PinsCompetences from "../PinsCompetences.tsx/PinsCompetences"
+import Projet from "../Projets/Projet"
 import "./Home.css"
 
 const Home = () => {
@@ -51,6 +53,10 @@ const Home = () => {
                     <PinsCompetences />
                 </div>
             </div>
+            <div className="h-screen w-screen bg-grey-dark">
+                <Projet />
+            </div>
+            <CustomCursor />
         </div>
     )
 }

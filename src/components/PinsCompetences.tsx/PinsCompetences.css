@@ -1,6 +1,5 @@
 .pins {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    cursor: crosshair;
     opacity: 0;
     transition: 0.5s;
     animation: fadeIn 1s ease-out forwards;
@@ -12,10 +11,6 @@
     position: absolute;
     padding: 10px;
     transition: transform 0.5s ease-in-out;
-}
-
-.pins:hover {
-    /* background-color: #; */
 }
 
 .pins:hover .container-name{

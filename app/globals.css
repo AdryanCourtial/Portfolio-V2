@@ -15,6 +15,10 @@
   display: none;
 }
 
+body, * {
+  cursor: auto;
+}
+
 @theme {
   --color-red-main: var(--primary-red);
   --color-black-light: var(--primary-black-light);

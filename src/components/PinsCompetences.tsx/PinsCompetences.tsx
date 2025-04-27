@@ -14,7 +14,7 @@ const PinsCompetences: React.FC = () => {
         <>
             {
                 contentCarouselSelectioned.competences.map((value, index) => (
-                    <div key={value.name} className="text-black bg-grey-dark relative min-w-[400px] w-fit rounded-full h-[100px] flex justify-center items-center pins py-1 overflow-hidden">
+                    <div key={value.name} className="text-black bg-grey-dark hover:bg-black-light hover:text-white relative min-w-[400px] w-fit rounded-full h-[100px] flex justify-center items-center pins py-1 overflow-hidden">
                         <div className="container-img h-full aspect-auto">
                             <img src={value.image} className="h-full w-full" alt="" />
                         </div>
