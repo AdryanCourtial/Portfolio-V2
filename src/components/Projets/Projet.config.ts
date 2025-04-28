@@ -26,7 +26,7 @@ export const ConfigProjet: ConfigProjetInterface[] = [
             "Css",
             "TypeScript"
         ],
-        image: "/application-nike-snkrs.png"
+        image: "/application-nike-snkrs.avif"
     },
     {
         title: "Dataroom",
@@ -37,6 +37,6 @@ export const ConfigProjet: ConfigProjetInterface[] = [
             "Css",
             "TypeScript"
         ],
-        image: "/esport-project.png"
+        image: "/app-dataroom.png"
     }
 ]

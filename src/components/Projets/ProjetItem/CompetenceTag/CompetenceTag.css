@@ -1,0 +1,7 @@
+
+.competence {
+    background: var(--color-red-main); /* Couleur de fond semi-transparente */
+    backdrop-filter: blur(10px); /* Floute ce qu'il y a derrière */
+    -webkit-backdrop-filter: blur(10px); /* Pour Safari */
+    border-radius: 30px;
+}

@@ -1,6 +1,7 @@
-"use client"
+"use client";
 
 import { ConfigProjetInterface } from "../Projet.config"
+import CompetenceTag from "./CompetenceTag/CompetenceTag"
 import "./ProjetItem.css"
 
 interface Props {
@@ -22,7 +23,13 @@ const ProjetItem: React.FC<Props> = ({ data }) => {
                 </div>
             </div>
             <div className="col-2-middle">
-
+                {
+                    data.competences.map((comp, index) => (
+                        <div className="competence" key={index}>
+                            <CompetenceTag>{comp}</CompetenceTag>
+                        </div>
+                    ))
+                }
             </div>
         </div>
     )

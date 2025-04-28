@@ -1,17 +1,18 @@
-"use client"
+"use client";
 
-import "./ProjetItem.css"
+import "./CompetenceTag.css"
+import React from "react"
 
 interface Props {
     children: string
 }
 
-const ProjetItem: React.FC<Props> = ({ children }) => {
+const CompetenceTag: React.FC<Props> = ({ children }) => {
     return (
-        <div className="container_project bg-black-light text-white">
-
+        <div className="text-white text-sm p-1 px-2 rounded-2xl competence">
+            {children}
         </div>
     )
 }
 
-export default ProjetItem
+export default CompetenceTag

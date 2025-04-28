@@ -57,7 +57,9 @@
     padding: 10px;
 }
 
-.col-2-bottom {
+.col-2-middle {
     padding: 10px;
-    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
